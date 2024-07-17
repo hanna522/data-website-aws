@@ -1,0 +1,26 @@
+version: 1
+applications:
+  - frontend:
+      phases:
+        preBuild:
+          commands:
+            - npm install
+        build:
+          commands:
+            - npm run build
+      artifacts:
+        baseDirectory: build
+        files:
+          - '**/*'
+      cache:
+        paths:
+          - node_modules/**/*
+  - backend:
+      phases:
+        preBuild:
+          commands:
+            - pip3 install --user pipenv
+            - pip3 install --user virtualenv
+        build:
+          commands:
+            - amplifyPush --simple
