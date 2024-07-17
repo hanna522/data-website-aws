@@ -1,38 +1,205 @@
-.App {
+/* Import FontAwesome */
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+/* CSS Variables */
+:root {
+  --color-primary: #0055b0;
+  --color-secondary: #007bff;
+  --color-light: #e0efff;
+  --color-dark: #f0f0f0;
+  --color-white: #ffffff;
+  --color-gray: #ccc;
+  --color-text: rgb(45, 45, 45);
+  --border-color: rgb(233, 233, 233);
+  --border-color-dark: rgb(172, 172, 172);
+}
+
+/* Global Styles */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Header Styles */
+.header {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  margin: 0;
+  padding: 10px;
+}
+
+/* Main Styles */
+main {
+  padding: 0px 20px 20px;
+}
+
+/* FilterComponent Styles */
+.filter-container {
+  font-size: 14px;
+  background-color: var(--color-light);
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 15px;
+}
+
+.filter-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.filter-list-content {
+  display: grid;
+  grid-template-columns: 15% 50%;
+  align-items: center;
+}
+
+.filter-container h2 {
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+/* SortComponent Styles */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto repeat(5, 19%);
+  text-align: center;
+  border: 0.3px solid var(--border-color);
+}
+
+.grid-container p {
+  margin: 0;
+  padding: 5px;
+  font-size: 12px;
+  border-right: 0.15px solid var(--border-color);
+  border-left: 0.15px solid var(--border-color);
+}
+
+.grid-container button {
+  border-right: 0.15px solid var(--border-color);
+  border-left: 0.15px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color-dark);
+  border-top: none;
+  background-color: var(--color-light);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.grid-header, .grid-item {
+  background-color: var(--color-dark);
+  padding: 16px;
+  border-radius: 8px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.grid-header {
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* SummaryComponent Styles */
+.dashboard-container {
+  background-color: var(--color-dark);
+  border: none;
+  margin-top: 15px;
+  padding: 6px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.dashboard-container button {
+  background-color: transparent;
+  border: none;
+  color: var(--color-text);
+  font-weight: 500;
+  padding: 3px 10px;
+  border-radius: 4px;
+}
+
+.dashboard-header {
   display: flex;
-  flex-direction: column;
   align-items: center;
+}
+
+.dashboard-content {
+  margin: 6px;
+  text-align: center;
+  border-top: 0.5px solid gray;
+  border-left: 0.5px solid gray;
+}
+
+.dashboard-content div {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.dashboard-content div p, .dashboard-content div h3 {
+  border-bottom: 0.5px solid gray;
+  border-right: 0.5px solid gray;
+}
+
+.dashboard-container h3, .dashboard-container p {
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+
+.dashboard-container h3 {
+  font-weight: 500;
+  background-color: rgb(226, 226, 226);
+}
+
+.dashboard-container h2 {
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+/* Pagination Styles */
+.pagination {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.pagination button {
+  margin: 0 3px;
+  padding: 4px 7px;
+  border: 1px solid var(--color-gray);
+  background-color: var(--color-white);
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pagination button.active, .pagination button:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+  border-color: var(--color-secondary);
+}
+
+/* Page Container Styles */
+.page-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.page-container h2 {
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.page-content {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.page-content button {
+  background-color: transparent;
+  border: none;
 }

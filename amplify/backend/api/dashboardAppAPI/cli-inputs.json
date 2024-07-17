@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "paths": {
+    "/data-sorting": {
+      "name": "/data-sorting",
+      "lambdaFunction": "temporarySortDataFunction",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/data-filtering": {
+      "name": "/data-filtering",
+      "lambdaFunction": "temporaryFilterDataFunction",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/data-ingestion": {
+      "name": "/data-ingestion",
+      "lambdaFunction": "temporaryIngestDataFunction",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/delete-data": {
+      "name": "/delete-data",
+      "lambdaFunction": "temporaryDeleteDataFunction",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/update-data": {
+      "name": "/update-data",
+      "lambdaFunction": "temporaryUpdateDataFunction",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/data-filtering-sorting": {
+      "name": "/data-filtering-sorting",
+      "lambdaFunction": "temporarySortDataFunction",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/data-fetching": {
+      "name": "/data-fetching",
+      "lambdaFunction": "temporarySortDataFunction",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
