@@ -12,12 +12,19 @@ frontend:
     baseDirectory: build
     files:
       - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
 backend:
   phases:
     preBuild:
       commands:
         - pip3 install --user pipenv
         - pip3 install --user virtualenv
+        - npm install -g @aws-amplify/cli
     build:
       commands:
         - amplifyPush --simple
+  cache:
+    paths:
+      - 'backend/node_modules/**/*'
