@@ -1,5 +1,5 @@
 version: 1
-appRoot: "src"
+appRoot: "."
 frontend:
   phases:
     preBuild:
