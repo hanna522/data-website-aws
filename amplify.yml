@@ -1,5 +1,5 @@
 version: 1
-appRoot: "dashboard-app"
+appRoot: "src"
 frontend:
   phases:
     preBuild:
