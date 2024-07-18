@@ -47,12 +47,12 @@
         "FunctionName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "temporaryUpdateDataFunction",
+            "tempSortFunction",
             {
               "Fn::Join": [
                 "",
                 [
-                  "temporaryUpdateDataFunction",
+                  "tempSortFunction",
                   "-",
                   {
                     "Ref": "env"
@@ -89,12 +89,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "dashboardappLambdaRole304a94b5",
+            "dashboardappLambdaRoledbebd620",
             {
               "Fn::Join": [
                 "",
                 [
-                  "dashboardappLambdaRole304a94b5",
+                  "dashboardappLambdaRoledbebd620",
                   "-",
                   {
                     "Ref": "env"

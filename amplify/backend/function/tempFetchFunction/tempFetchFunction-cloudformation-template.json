@@ -47,12 +47,12 @@
         "FunctionName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "temporaryFilterDataFunction",
+            "tempFetchFunction",
             {
               "Fn::Join": [
                 "",
                 [
-                  "temporaryFilterDataFunction",
+                  "tempFetchFunction",
                   "-",
                   {
                     "Ref": "env"
@@ -89,12 +89,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "dashboardappLambdaRole85e9a7b0",
+            "dashboardappLambdaRoleb3f1ea9d",
             {
               "Fn::Join": [
                 "",
                 [
-                  "dashboardappLambdaRole85e9a7b0",
+                  "dashboardappLambdaRoleb3f1ea9d",
                   "-",
                   {
                     "Ref": "env"

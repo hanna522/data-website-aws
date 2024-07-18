@@ -47,12 +47,12 @@
         "FunctionName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "temporaryDeleteDataFunction",
+            "tempUpdateFunction",
             {
               "Fn::Join": [
                 "",
                 [
-                  "temporaryDeleteDataFunction",
+                  "tempUpdateFunction",
                   "-",
                   {
                     "Ref": "env"
@@ -89,12 +89,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "dashboardappLambdaRole2c2396d6",
+            "dashboardappLambdaRoleeee5bc65",
             {
               "Fn::Join": [
                 "",
                 [
-                  "dashboardappLambdaRole2c2396d6",
+                  "dashboardappLambdaRoleeee5bc65",
                   "-",
                   {
                     "Ref": "env"

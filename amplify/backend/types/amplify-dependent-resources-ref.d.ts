@@ -7,35 +7,35 @@ export type AmplifyDependentResourcesAttributes = {
     }
   },
   "function": {
-    "temporaryDeleteDataFunction": {
+    "tempFetchFunction": {
       "Arn": "string",
       "LambdaExecutionRole": "string",
       "LambdaExecutionRoleArn": "string",
       "Name": "string",
       "Region": "string"
     },
-    "temporaryFilterDataFunction": {
+    "tempFilterFunction": {
       "Arn": "string",
       "LambdaExecutionRole": "string",
       "LambdaExecutionRoleArn": "string",
       "Name": "string",
       "Region": "string"
     },
-    "temporaryIngestDataFunction": {
+    "tempFilterSortFunction": {
       "Arn": "string",
       "LambdaExecutionRole": "string",
       "LambdaExecutionRoleArn": "string",
       "Name": "string",
       "Region": "string"
     },
-    "temporarySortDataFunction": {
+    "tempSortFunction": {
       "Arn": "string",
       "LambdaExecutionRole": "string",
       "LambdaExecutionRoleArn": "string",
       "Name": "string",
       "Region": "string"
     },
-    "temporaryUpdateDataFunction": {
+    "tempUpdateFunction": {
       "Arn": "string",
       "LambdaExecutionRole": "string",
       "LambdaExecutionRoleArn": "string",

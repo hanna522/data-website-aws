@@ -8,7 +8,7 @@
             "Arn"
           ],
           "category": "function",
-          "resourceName": "temporarySortDataFunction"
+          "resourceName": "tempFetchFunction"
         },
         {
           "attributes": [
@@ -16,7 +16,7 @@
             "Arn"
           ],
           "category": "function",
-          "resourceName": "temporaryFilterDataFunction"
+          "resourceName": "tempFilterSortFunction"
         },
         {
           "attributes": [
@@ -24,7 +24,7 @@
             "Arn"
           ],
           "category": "function",
-          "resourceName": "temporaryIngestDataFunction"
+          "resourceName": "tempSortFunction"
         },
         {
           "attributes": [
@@ -32,7 +32,7 @@
             "Arn"
           ],
           "category": "function",
-          "resourceName": "temporaryDeleteDataFunction"
+          "resourceName": "tempFilterFunction"
         },
         {
           "attributes": [
@@ -40,7 +40,7 @@
             "Arn"
           ],
           "category": "function",
-          "resourceName": "temporaryUpdateDataFunction"
+          "resourceName": "tempUpdateFunction"
         }
       ],
       "providerPlugin": "awscloudformation",
@@ -48,110 +48,110 @@
     }
   },
   "function": {
-    "temporaryDeleteDataFunction": {
+    "tempFetchFunction": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     },
-    "temporaryFilterDataFunction": {
+    "tempFilterFunction": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     },
-    "temporaryIngestDataFunction": {
+    "tempFilterSortFunction": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     },
-    "temporarySortDataFunction": {
+    "tempSortFunction": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     },
-    "temporaryUpdateDataFunction": {
+    "tempUpdateFunction": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     }
   },
   "parameters": {
-    "AMPLIFY_function_temporaryDeleteDataFunction_deploymentBucketName": {
+    "AMPLIFY_function_tempFetchFunction_deploymentBucketName": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "temporaryDeleteDataFunction"
+          "resourceName": "tempFetchFunction"
         }
       ]
     },
-    "AMPLIFY_function_temporaryDeleteDataFunction_s3Key": {
+    "AMPLIFY_function_tempFetchFunction_s3Key": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "temporaryDeleteDataFunction"
+          "resourceName": "tempFetchFunction"
         }
       ]
     },
-    "AMPLIFY_function_temporaryFilterDataFunction_deploymentBucketName": {
+    "AMPLIFY_function_tempFilterFunction_deploymentBucketName": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "temporaryFilterDataFunction"
+          "resourceName": "tempFilterFunction"
         }
       ]
     },
-    "AMPLIFY_function_temporaryFilterDataFunction_s3Key": {
+    "AMPLIFY_function_tempFilterFunction_s3Key": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "temporaryFilterDataFunction"
+          "resourceName": "tempFilterFunction"
         }
       ]
     },
-    "AMPLIFY_function_temporaryIngestDataFunction_deploymentBucketName": {
+    "AMPLIFY_function_tempFilterSortFunction_deploymentBucketName": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "temporaryIngestDataFunction"
+          "resourceName": "tempFilterSortFunction"
         }
       ]
     },
-    "AMPLIFY_function_temporaryIngestDataFunction_s3Key": {
+    "AMPLIFY_function_tempFilterSortFunction_s3Key": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "temporaryIngestDataFunction"
+          "resourceName": "tempFilterSortFunction"
         }
       ]
     },
-    "AMPLIFY_function_temporarySortDataFunction_deploymentBucketName": {
+    "AMPLIFY_function_tempSortFunction_deploymentBucketName": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "temporarySortDataFunction"
+          "resourceName": "tempSortFunction"
         }
       ]
     },
-    "AMPLIFY_function_temporarySortDataFunction_s3Key": {
+    "AMPLIFY_function_tempSortFunction_s3Key": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "temporarySortDataFunction"
+          "resourceName": "tempSortFunction"
         }
       ]
     },
-    "AMPLIFY_function_temporaryUpdateDataFunction_deploymentBucketName": {
+    "AMPLIFY_function_tempUpdateFunction_deploymentBucketName": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "temporaryUpdateDataFunction"
+          "resourceName": "tempUpdateFunction"
         }
       ]
     },
-    "AMPLIFY_function_temporaryUpdateDataFunction_s3Key": {
+    "AMPLIFY_function_tempUpdateFunction_s3Key": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "temporaryUpdateDataFunction"
+          "resourceName": "tempUpdateFunction"
         }
       ]
     }

@@ -1,51 +1,37 @@
 {
   "version": 1,
   "paths": {
-    "/data-sorting": {
-      "name": "/data-sorting",
-      "lambdaFunction": "temporarySortDataFunction",
-      "permissions": {
-        "setting": "open"
-      }
-    },
-    "/data-filtering": {
-      "name": "/data-filtering",
-      "lambdaFunction": "temporaryFilterDataFunction",
-      "permissions": {
-        "setting": "open"
-      }
-    },
-    "/data-ingestion": {
-      "name": "/data-ingestion",
-      "lambdaFunction": "temporaryIngestDataFunction",
-      "permissions": {
-        "setting": "open"
-      }
-    },
-    "/delete-data": {
-      "name": "/delete-data",
-      "lambdaFunction": "temporaryDeleteDataFunction",
-      "permissions": {
-        "setting": "open"
-      }
-    },
-    "/update-data": {
-      "name": "/update-data",
-      "lambdaFunction": "temporaryUpdateDataFunction",
+    "/data-fetching": {
+      "name": "/data-fetching",
+      "lambdaFunction": "tempFetchFunction",
       "permissions": {
         "setting": "open"
       }
     },
     "/data-filtering-sorting": {
       "name": "/data-filtering-sorting",
-      "lambdaFunction": "temporarySortDataFunction",
+      "lambdaFunction": "tempFilterSortFunction",
       "permissions": {
         "setting": "open"
       }
     },
-    "/data-fetching": {
-      "name": "/data-fetching",
-      "lambdaFunction": "temporarySortDataFunction",
+    "/data-sorting": {
+      "name": "/data-sorting",
+      "lambdaFunction": "tempSortFunction",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/data-filtering": {
+      "name": "/data-filtering",
+      "lambdaFunction": "tempFilterFunction",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/update-data": {
+      "name": "/update-data",
+      "lambdaFunction": "tempUpdateFunction",
       "permissions": {
         "setting": "open"
       }

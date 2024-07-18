@@ -13,25 +13,25 @@
     },
     "categories": {
       "function": {
-        "temporarySortDataFunction": {
+        "tempFetchFunction": {
           "deploymentBucketName": "amplify-dashboardapp-dev-ffff9-deployment",
-          "s3Key": "amplify-builds/temporarySortDataFunction-58565a686d504c367346-build.zip"
+          "s3Key": "amplify-builds/tempFetchFunction-446b696b392f4b676a50-build.zip"
         },
-        "temporaryFilterDataFunction": {
+        "tempFilterSortFunction": {
           "deploymentBucketName": "amplify-dashboardapp-dev-ffff9-deployment",
-          "s3Key": "amplify-builds/temporaryFilterDataFunction-754b4d75412f30694b51-build.zip"
+          "s3Key": "amplify-builds/tempFilterSortFunction-744b32424a6c56336933-build.zip"
         },
-        "temporaryIngestDataFunction": {
+        "tempSortFunction": {
           "deploymentBucketName": "amplify-dashboardapp-dev-ffff9-deployment",
-          "s3Key": "amplify-builds/temporaryIngestDataFunction-4c6d64673255702f4544-build.zip"
+          "s3Key": "amplify-builds/tempSortFunction-6f5145566f36686e702f-build.zip"
         },
-        "temporaryDeleteDataFunction": {
+        "tempFilterFunction": {
           "deploymentBucketName": "amplify-dashboardapp-dev-ffff9-deployment",
-          "s3Key": "amplify-builds/temporaryDeleteDataFunction-374a746f69496b2b4146-build.zip"
+          "s3Key": "amplify-builds/tempFilterFunction-795a6449704d78324c73-build.zip"
         },
-        "temporaryUpdateDataFunction": {
+        "tempUpdateFunction": {
           "deploymentBucketName": "amplify-dashboardapp-dev-ffff9-deployment",
-          "s3Key": "amplify-builds/temporaryUpdateDataFunction-475a4b324d7635597845-build.zip"
+          "s3Key": "amplify-builds/tempUpdateFunction-674172387a684f74754c-build.zip"
         }
       },
       "api": {
