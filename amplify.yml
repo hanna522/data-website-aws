@@ -21,7 +21,7 @@ backend:
       commands:
         - pip3 install --user pipenv
         - pip3 install --user virtualenv
-        - npm install -g @aws-amplify/cli
+        - export PATH=$PATH:$HOME/.local/bin
     build:
       commands:
         - amplifyPush --simple
