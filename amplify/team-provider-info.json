@@ -32,7 +32,8 @@
         "temporaryUpdateDataFunction": {
           "deploymentBucketName": "amplify-dashboardapp-dev-ffff9-deployment",
           "s3Key": "amplify-builds/temporaryUpdateDataFunction-475a4b324d7635597845-build.zip"
-        }
+        },
+        "UpdateDataFunction": {}
       },
       "api": {
         "dashboardAppAPI": {}
