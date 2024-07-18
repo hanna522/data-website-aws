@@ -3,8 +3,7 @@
 The Data Filtering/Sorting Website allows users to sort, filter, and check the summary of data collected from 20 devices, including motion, temperature, and light. The data is collected every 10 minutes for 30 days.
 
 ## Website
-You can check the website from the link below:
-[Data Filtering/Sorting](https://main.d2u8n4ytc3u84v.amplifyapp.com)
+You can check the website from this link: [Data Filtering/Sorting Website](https://main.d2u8n4ytc3u84v.amplifyapp.com)
 
 ## Preview
 ![Picture1](https://github.com/user-attachments/assets/d09818f1-c77b-4a1a-9b5e-f629d39c5ef8)
