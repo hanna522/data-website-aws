@@ -7,10 +7,13 @@ You can check the website from the link below:
 [Data Filtering/Sorting](https://main.d2u8n4ytc3u84v.amplifyapp.com)
 
 ## Preview
-![Preview Image](images/preview.png)
+![Preview Image](![Picture1](https://github.com/user-attachments/assets/af521520-4e33-4f9c-916b-7dc6a5f7a6d8)
+)
   1. **Filter**: Set filter(s) to get filtered data.
   2. **Summary Data**: Check summary for the filtered data.
-  3. **Data**: Check the data by pages. Navigate to the next page using the arrow button on the top of the dataset or the number buttons on the bottom of the dataset.
+  3. **Data**: Check the data by pages.
+    - **Sort**: Sort the data by clicking the top row of columns 'device_id', 'timestamp', 'temperature', 'light', 'motion'.
+    - **Navigate**: Navigate to the next page using the arrow button on the top of the dataset or the number buttons on the bottom of the dataset.
 
 ## Tech Stacks
 
