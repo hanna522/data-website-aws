@@ -7,8 +7,8 @@ You can check the website from the link below:
 [Data Filtering/Sorting](https://main.d2u8n4ytc3u84v.amplifyapp.com)
 
 ## Preview
-![Preview Image](![Picture1](https://github.com/user-attachments/assets/af521520-4e33-4f9c-916b-7dc6a5f7a6d8)
-)
+![Picture1](https://github.com/user-attachments/assets/d09818f1-c77b-4a1a-9b5e-f629d39c5ef8)
+
   1. **Filter**: Set filter(s) to get filtered data.
   2. **Summary Data**: Check summary for the filtered data.
   3. **Data**: Check the data by pages.
