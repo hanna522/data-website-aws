@@ -48,12 +48,6 @@
     }
   },
   "function": {
-    "UpdateDataFunction": {
-      "build": true,
-      "dependsOn": [],
-      "providerPlugin": "awscloudformation",
-      "service": "Lambda"
-    },
     "temporaryDeleteDataFunction": {
       "build": true,
       "providerPlugin": "awscloudformation",
